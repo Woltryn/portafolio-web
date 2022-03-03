@@ -1,0 +1,70 @@
+.skill-container{
+width: 100%;
+height: 95vh;
+position: relative;
+display: flex;
+
+}
+
+.skill-container h3{
+    position: absolute;
+    color: white;
+    right: 43%;
+    top: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    text-shadow: 2px 2px 12px rgb(235, 117, 117), -6px -6px 12px rgb(16, 16, 75);
+}
+.container-cards{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    flex-flow: row wrap;  
+    align-items:center;
+}
+.container-cards li{
+    display: inline;
+    margin: 20px;
+    
+}
+
+
+
+.container-cards li img{
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.container-cards li img:hover{ 
+    box-shadow: 2px 2px 12px rgb(235, 117, 117), -6px -6px 12px rgb(16, 16, 75);
+}
+
+.background-skill{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.section-left{
+    position: relative;
+    width: 30%;
+    margin-left: 70px;
+}
+
+.section-right{
+    position: relative;
+    width: 30%;
+    left: 33%;
+}
+
+.img-background{
+    position: absolute;
+    width: 470px;
+    height: 300px;
+    border-radius: 20px;
+    left: 32%;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 12px rgb(37, 25, 25), -6px -6px 12px rgb(16, 16, 75);
+}

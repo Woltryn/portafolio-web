@@ -1,0 +1,67 @@
+
+nav{
+    height:100px ;
+    width: 100%;
+    position: relative;
+    background-image: url("../../../assets//imagen/1-12932_cover-image-for-youtube-channel.jpg");
+    background-size: 98% 98%;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    width: 90px;    
+    height: 90px;
+    border-radius: 10px;
+    margin-right:10px; 
+    margin-top: 5px;
+    left: 10px;
+    top: 0px;
+}
+
+.logo:hover {
+    box-shadow: 2px 2px 12px rgb(235, 117, 117), -6px -6px 12px rgb(16, 16, 75);
+}
+
+
+.nav-title> h2, p{
+    font-size: 26px;
+    color: white;
+    text-shadow: rgb(39, 201, 187) 0.1em 0.1em 0.2em;
+    position: relative;
+    margin-top: 10px;
+    left: 150px;
+}
+
+.nav-container{
+    display: flex;
+    width: 750px;
+    height: 90px;
+    position: absolute;
+    align-items: center;
+    background: none;
+    right: 0px ;
+    top: 0px;
+}
+
+
+.btn-active, .btn {
+    margin-right: 15px;
+    position: relative;
+    color: white;
+    background-color: rgb(26, 117, 110);
+    box-shadow:0px 0px 40px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 8px 8px;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+.btn-active, .btn:hover {
+    background-color: rgb(225, 227, 252);
+    color: #000;
+    font-size: 14px;
+}
