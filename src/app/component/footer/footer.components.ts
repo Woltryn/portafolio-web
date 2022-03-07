@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { strict } from 'assert';
 
 @Component({
   selector: 'app-footer',
@@ -8,23 +7,23 @@ import { strict } from 'assert';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+ 
+   }
 
   ngOnInit(): void {
 
+    const subir = document.getElementById("btn")
 
-const scroll = document.getElementById("btn-footer":strict).addEventListener('click',scrollToTop);
-function scrollToTop() {
-  window.scrollTo(){
-    top: 0
-    behavior: 'smooth'
+    subir.addEventListener("click", function() {
+      window.scrollTo({
+      top: 0,
+      behavior: 'smooth'  
+       })
+     })
+    
+    
+    
+    
   }
-}
-  }
-
-
-
-
-
-
 }

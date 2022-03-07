@@ -5,7 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './component/header/header.component';
 import { AngularMaterialModule } from './angular-material/angular-material.module';
 import { BeginingComponent } from './component/begining/begining.component';
-import { FooterComponent } from './component/footer/footer.component';
+import { FooterComponent } from './component/footer/footer.components';
 import { SkillComponent } from './component/skill/skill.component';
 import { ProjectComponent } from './component/project/project.component';
 import { FormComponent } from './component/form/form.component';

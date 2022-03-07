@@ -13,10 +13,11 @@
 .img-about{
 position: relative;
 display: flex;
-left: 4rem;
-top: 75px;
-width: 450px;
-height: 400px;
+left: 1rem;
+top: 6rem;
+height: 350px;
+border: 3px solid #0e091b;
+box-shadow: 2px 2px 12px rgb(235 117 117), -6px -6px 12px rgb(16 16 75);
 }
 
 .about div h2,p{

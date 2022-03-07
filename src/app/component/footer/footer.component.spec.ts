@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FooterComponent } from './footer.component';
+import { FooterComponent } from './footer.components';
 
 describe('FooterComponent', () => {
   let component: FooterComponent;
@@ -23,3 +23,4 @@ describe('FooterComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
